@@ -1,2 +1,3 @@
-# Ghenchow-Docs
- 蘅州文档
+# Ghenchow Docs
+
+蘅州文档
