@@ -22,11 +22,6 @@ export default defineConfig({
       { icon: 'github', link: 'https://github.com/InnovaCreation/Ghenchow-Docs' },
     ],
 
-    editLink: {
-      pattern: 'https://github.com/InnovaCreation/Ghenchow-Docs/edit/main/docs/:path',
-      text: '在 GitHub 上编辑此页面',
-    },
-
     footer: {
       message: 'Released under the GPL-3.0 License.',
       copyright: `Copyright © 2023-${new Date().getFullYear()} InnovaCreation`
@@ -40,14 +35,6 @@ export default defineConfig({
     outline: {
       level: [2, 3],
       label: '页面导航'
-    },
-
-    lastUpdated: {
-      text: '最后更新于',
-      formatOptions: {
-        dateStyle: 'short',
-        timeStyle: 'medium'
-      }
     },
 
     returnToTopLabel: '回到顶部',
