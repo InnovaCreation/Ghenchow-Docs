@@ -4,7 +4,6 @@ export default defineConfig({
   lang: 'zh-CN',
   title: "蘅州社区",
   description: "Ghenchow",
-  lastUpdated: true,
   ignoreDeadLinks: true,
   cleanUrls: true,
 
@@ -17,6 +16,10 @@ export default defineConfig({
       { text: '主页', link: '/' },
       { text: '指南', link: '/guide/', },
       { text: '规划', link: '/plan/', },
+    ],
+
+    socialLinks: [
+      { icon: 'github', link: 'https://github.com/InnovaCreation/Ghenchow-Docs' },
     ],
 
     editLink: {
